@@ -159,9 +159,9 @@
             _this.$canvas.html(x.data.body);
 
             // update inputs
-            _this.$height.val(x.data.attributes.height);
-            _this.$width.val(x.data.attributes.width);
-            _this.$html.val(x.data.attributes.html);
+            _this.$height.val(x.data.attr.height);
+            _this.$width.val(x.data.attr.width);
+            _this.$html.val(x.data.body);
         }).fail(function (){
             _this.$canvas.html('');
         });
