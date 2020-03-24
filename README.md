@@ -87,6 +87,9 @@ if (!empty($embed)) {
 
 ## Release History
 
+0.0.2
+- Fix display and JS integration
+
 0.0.1
 - Initial commit
 

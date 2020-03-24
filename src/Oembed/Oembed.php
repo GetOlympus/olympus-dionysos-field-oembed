@@ -49,8 +49,8 @@ class Oembed extends Field
             'description' => '',
 
             // texts
-            't_addblock_label' => parent::t('link.addblock_label', $this->textdomain),
-            't_removeblock_label' => parent::t('link.removeblock_label', $this->textdomain),
+            't_addblock_label' => parent::t('oembed.addblock_label', $this->textdomain),
+            't_removeblock_label' => parent::t('oembed.removeblock_label', $this->textdomain),
         ];
     }
 
@@ -68,7 +68,7 @@ class Oembed extends Field
         $vars = $contents;
 
         // Retrieve field value
-        $vars['value'] = !is_array($value) ? [$value] : (isset($value['url']) ? [$value] : $value);
+        $vars['value'] = !is_array($value) ? [$value] : $value;
 
         // Update vars
         return $vars;
