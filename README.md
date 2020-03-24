@@ -69,7 +69,7 @@ Below, a `json_encode()` example to understand how data are stored in Database:
   "url": "https://www.youtube.com/watch?v=Xxbd5keKhPU",
   "height": 1000,
   "width": 916,
-  "html": "<iframe title=\"Popopooooo\" width=\"916\" height=\"515\" src=\"https://www.youtube.com/embed/Xxbd5keKhPU?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+  "html": "<iframe title=\"Popopooooo\" width=\"916\" height=\"515\" src=\"https://www.youtube.com/embed/Xxbd5keKhPU?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 }
 ```
 
