@@ -87,6 +87,9 @@ if (!empty($embed)) {
 
 ## Release History
 
+0.0.3
+- Better CSS display
+
 0.0.2
 - Fix display and JS integration
 
