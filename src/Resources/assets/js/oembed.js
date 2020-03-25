@@ -115,6 +115,9 @@
         _this.$html.val('');
         _this.$canvas.html('');
 
+        // update canvas css
+        _this.$canvas.addClass('empty');
+
         // focus on url
         _this.$url.focus();
     };
@@ -146,7 +149,7 @@
                 post_ID: 0,
                 type: 'embed',
                 shortcode: '[embed]'+_url+'[/embed]',
-                maxwidth: 1156,
+                maxwidth: 768,
                 action: 'parse-embed'
             }
         }).done(function (x){
@@ -157,6 +160,7 @@
 
             // display data
             _this.$canvas.html(x.data.body);
+            _this.$canvas.removeClass('empty');
 
             // update inputs
             _this.$height.val(x.data.attr.height);
@@ -164,6 +168,7 @@
             _this.$html.val(x.data.body);
         }).fail(function (){
             _this.$canvas.html('');
+            _this.$canvas.addClass('empty');
         });
     };
 
