@@ -39,8 +39,8 @@ return \GetOlympus\Dionysos\Field\Oembed::build('my_oembed_field_id', [
      * Texts definition
      * @see the `Texts definition` section below
      */
-    't_addblock_label'        => 'Enter URL here.',
-    't_removeblock_label'     => 'Clear',
+    't_addblock_label'    => 'Enter URL here.',
+    't_removeblock_label' => 'Clear',
 ]);
 ```
 
@@ -87,22 +87,22 @@ if (!empty($embed)) {
 
 ## Release History
 
+0.0.4
+-  Fix JS ready
+
 0.0.3
-- Better CSS display
+-  Better CSS display
 
 0.0.2
-- Fix display and JS integration
-
-0.0.1
-- Initial commit
+-  Fix display and JS integration
 
 ## Contributing
 
-1. Fork it (<https://github.com/GetOlympus/olympus-dionysos-field-oembed/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
+1.  Fork it (<https://github.com/GetOlympus/olympus-dionysos-field-oembed/fork>)
+2.  Create your feature branch (`git checkout -b feature/fooBar`)
+3.  Commit your changes (`git commit -am 'Add some fooBar'`)
+4.  Push to the branch (`git push origin feature/fooBar`)
+5.  Create a new Pull Request
 
 ---
 
