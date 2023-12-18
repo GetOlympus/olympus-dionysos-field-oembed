@@ -1,4 +1,12 @@
+<img src="https://github.com/GetOlympus/olympus-dionysos-field-oembed/blob/master/assets/field-oembed.png" align="left" />
+
 # Dionysos oEmbed Field
+
+[![Olympus Component][olympus-image]][olympus-url]
+[![CodeFactor Grade][codefactor-image]][codefactor-url]
+[![Packagist Version][packagist-image]][packagist-url]
+[![MIT][license-image]][license-blob]
+
 > This component is a part of the **Olympus Dionysos fields** for **WordPress**.
 
 ```sh
@@ -7,16 +15,9 @@ composer require getolympus/olympus-dionysos-field-oembed
 
 ---
 
-[![Olympus Component][olympus-image]][olympus-url]
-[![CodeFactor Grade][codefactor-image]][codefactor-url]
-[![Packagist Version][packagist-image]][packagist-url]
-[![MIT][license-image]][license-blob]
+## Table of contents
 
----
-
-<p align="center">
-    <img src="https://github.com/GetOlympus/olympus-dionysos-field-oembed/blob/master/assets/field-oembed-64.png" />
-</p>
+[Field initialization](#field-initialization) • [Variables definition](#variables-definition) • [Texts definition](#texts-definition) • [Retrive data](#retrive-data) • [Release history](#release-history) • [Contributing](#contributing)
 
 ---
 
@@ -85,24 +86,21 @@ if (!empty($embed)) {
 }
 ```
 
-## Release History
+## Release history
 
-0.0.4
--  Fix JS ready
-
-0.0.3
--  Better CSS display
-
-0.0.2
--  Fix display and JS integration
+| Version | Note |
+| :------ | :--- |
+| 0.0.4  | Fix JS ready |
+| 0.0.3  | Better CSS display |
+| 0.0.2  | Fix display and JS integration |
 
 ## Contributing
 
-1.  Fork it (<https://github.com/GetOlympus/olympus-dionysos-field-oembed/fork>)
-2.  Create your feature branch (`git checkout -b feature/fooBar`)
-3.  Commit your changes (`git commit -am 'Add some fooBar'`)
-4.  Push to the branch (`git push origin feature/fooBar`)
-5.  Create a new Pull Request
+1. Fork it (<https://github.com/GetOlympus/olympus-dionysos-field-oembed/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request
 
 ---
 
