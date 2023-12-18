@@ -8,13 +8,12 @@
         <input type="hidden" name="{{ name }}" value="" />
 
         {% set _url = value is not empty ? value.url : '' %}
-        {% set _height = value is not empty ? value.height : '' %}
-        {% set _width = value is not empty ? value.width : '' %}
-        {% set _html = value is not empty ? value.html : '' %}
-
         <input type="url" name="{{ name }}[url]" value="{{ _url }}" class="oembed-url large-text" placeholder="{{ t_addblock_label|raw }}" />
+        {% set _height = value is not empty ? value.height : '' %}
         <input type="hidden" name="{{ name }}[height]" value="{{ _height }}" class="oembed-height" />
+        {% set _width = value is not empty ? value.width : '' %}
         <input type="hidden" name="{{ name }}[width]" value="{{ _width }}" class="oembed-width" />
+        {% set _html = value is not empty ? value.html : '' %}
         <input type="hidden" name="{{ name }}[html]" value="{{ _html|e('html') }}" class="oembed-html" />
 
         <div class="oembed-canvas link-to-original{{ value is not empty ? '' : ' empty' }}">{{ _html|raw }}</div>
@@ -25,14 +24,12 @@
 
         <script>
             (function($) {
-                $(document).ready(function() {
-                    $("#{{ identifier }}-oembed").dionysosOembed({
-                        url: '.oembed-url',
-                        height: '.oembed-height',
-                        width: '.oembed-width',
-                        html: '.oembed-html',
-                        canvas: '.oembed-canvas',
-                    });
+                $("#{{ identifier }}-oembed").dionysosOembed({
+                    url: '.oembed-url',
+                    height: '.oembed-height',
+                    width: '.oembed-width',
+                    html: '.oembed-html',
+                    canvas: '.oembed-canvas',
                 });
             })(jQuery);
         </script>

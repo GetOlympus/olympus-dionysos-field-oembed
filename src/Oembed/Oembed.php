@@ -44,12 +44,12 @@ class Oembed extends Field
     protected function getDefaults() : array
     {
         return [
-            'title' => parent::t('oembed.title', $this->textdomain),
-            'default' => [],
+            'title'       => parent::t('oembed.title', $this->textdomain),
+            'default'     => [],
             'description' => '',
 
             // texts
-            't_addblock_label' => parent::t('oembed.addblock_label', $this->textdomain),
+            't_addblock_label'    => parent::t('oembed.addblock_label', $this->textdomain),
             't_removeblock_label' => parent::t('oembed.removeblock_label', $this->textdomain),
         ];
     }
