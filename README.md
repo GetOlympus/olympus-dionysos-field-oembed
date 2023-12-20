@@ -90,9 +90,9 @@ if (!empty($embed)) {
 
 | Version | Note |
 | :------ | :--- |
-| 0.0.4  | Fix JS ready |
-| 0.0.3  | Better CSS display |
-| 0.0.2  | Fix display and JS integration |
+| 0.0.5   | Fix jQuery integration on domReady |
+| 0.0.4   | Fix JS ready |
+| 0.0.3   | Better CSS display |
 
 ## Contributing
 

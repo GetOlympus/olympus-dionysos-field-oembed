@@ -24,12 +24,14 @@
 
         <script>
             (function($) {
-                $("#{{ identifier }}-oembed").dionysosOembed({
-                    url: '.oembed-url',
-                    height: '.oembed-height',
-                    width: '.oembed-width',
-                    html: '.oembed-html',
-                    canvas: '.oembed-canvas',
+                $(document).ready(function() {
+                    $("#{{ identifier }}-oembed").dionysosOembed({
+                        url: '.oembed-url',
+                        height: '.oembed-height',
+                        width: '.oembed-width',
+                        html: '.oembed-html',
+                        canvas: '.oembed-canvas',
+                    });
                 });
             })(jQuery);
         </script>
